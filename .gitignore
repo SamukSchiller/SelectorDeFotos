@@ -1,0 +1,25 @@
+# Compilado (se publica en Releases, no en el repositorio)
+*.exe
+*.pdb
+dist/
+
+# Datos personales de quien usa la app
+*.ajustes.json
+*.marcas.json
+*.marcas.lock
+*.errores.log
+errores.log
+data/
+
+# Instrucciones locales del asistente
+CLAUDE.md
+.claude/
+
+# Sistema y editores
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+
+# Material del video tutorial (se trabaja aparte)
+video/
